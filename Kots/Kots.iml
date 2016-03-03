@@ -8,5 +8,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+    <orderEntry type="library" name="Yested-0.0.55" level="project" />
+    <orderEntry type="library" name="kobalt-wrapper" level="project" />
   </component>
+  <dependency>
 </module>

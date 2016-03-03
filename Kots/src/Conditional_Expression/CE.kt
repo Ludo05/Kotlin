@@ -17,7 +17,9 @@ fun main(args:Array<String>){
     // println(Ma(4,6))
     // ofString("String")
     // println(retu(3,5))
-    loop()
+    //loop()
+    //println(col())
+      loop2()
 
 }
 
@@ -64,15 +66,27 @@ fun loop() : Unit{
     loop@ for(i in 1..100)
                print("$i, ")
 
+
 }
 
-fun retu(v: Int,z: Int) : Int{
-    if(v > z)
-        return v
-    else
-        return z
+fun retu(v: Int,z: Int) : Int = if(v > z) v else z
+
+fun col(): List<Int> {
+    val collections: List<Int> = listOf(1, 2, 3, 4, 5, 6)
+
+    /**
+     * THIS WILL ALSO WORK FUNCTIONAL PROGRAMMING
+     * collections.forEach{e -> println(e)}
+     * collections.forEach { println(it) }
+     */
+
+    return collections
 }
 
+fun loop2(): Unit{
+    for(i in 1..10 )
+        print(i)
+}
 
 
 
